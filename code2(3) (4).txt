@@ -10769,19 +10769,19 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-campaignTrail_temp.candidate_image_url = "https://files.catbox.moe/4mb0s1.png";
+campaignTrail_temp.candidate_image_url = "https://files.catbox.moe/p4ghex.png";
 campaignTrail_temp.running_mate_image_url = "https://files.catbox.moe/t7xns8.png";
-campaignTrail_temp.candidate_last_name = "Clinton";
-campaignTrail_temp.running_mate_last_name = "Kaine";
+campaignTrail_temp.candidate_last_name = "Biden";
+campaignTrail_temp.running_mate_last_name = "Harris";
 
 
 
 campaignTrail_temp.jet_data = [{
     "banner_data": {
-        "canName": "Clinton",
-        "canImage": "https://files.catbox.moe/4mb0s1.png",
-        "runName": "Kaine",
-        "runImage": "https://files.catbox.moe/t7xns8.png"
+        "canName": "Biden",
+        "canImage": "https://files.catbox.moe/p4ghex.png",
+        "runName": "Harris",
+        "runImage": "https://files.catbox.moe/6a3avn.png"
     },
     "banner_enabled": true
 }
