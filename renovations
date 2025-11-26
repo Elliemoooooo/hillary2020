@@ -596,29 +596,8 @@ function setupMusicPlayer() {
     "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.rapgenius.com%2F10b2ce7ef63d3b7eeda32ef03657ce89.220x220x1.jpg",
     "https://files.catbox.moe/n5opuh.mp3"
   );
-  const song3 = new Song(
-    "American Jesus",
-    "Bad Religion",
-    "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F0189a4409f63ba1ac4a7a5598c48860c.220x217x1.jpg",
-    "https://files.catbox.moe/a2t3ij.mp3"
-  );
-  const song4 = new Song(
-    "The New World",
-    "X",
-    "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.rapgenius.com%2F217505887bde9c11e08321f9d72c38e3.297x300x1.jpg",
-    "https://files.catbox.moe/qlhxbu.mp3"
-  );
-  const song5 = new Song(
-    "We Care a Lot",
-    "Faith No More",
-    "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fc8a8bedec5507ac0c8cc5ffd948cedd8.600x595x1.jpg",
-    "https://files.catbox.moe/igx2ot.mp3"
-  );
   playlist.addSong(song1);
   playlist.addSong(song2);
-  playlist.addSong(song3);
-  playlist.addSong(song4);
-  playlist.addSong(song5);
   const playerContainer = document.createElement("div");
   playerContainer.id = "player";
 
@@ -1070,12 +1049,6 @@ setupMusicPlayer();
   var setCRTLines = (enabled) => {
     crtStyle.innerText = enabled ? "" : ".crt::before {background: none;}";
   }
-  footer = $(".footer")[0]
-  var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
-  button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
-  button.innerHTML = "Toggle CRT Lines"
-  footer.insertBefore(button, footer.firstChild);
-  button.addEventListener("click", () => {crtOn = !crtOn; setCRTLines(crtOn)});
 
 function updateElements() {
     // Remove default candidate summary
@@ -1095,4 +1068,3 @@ var mutationObserver = new MutationObserver(updateElements);
 mutationObserver.observe(document.documentElement, { childList: true, subtree: true });
 
 //#endcode
-
