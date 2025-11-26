@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 21,
         "fields": {
             "year": 2020,
-            "summary": "<p>Joe Biden and Donald Trump face off in a heated 2020 election campaign. Held in the wake of a COVID-19 pandemic and nationwide protests, turnout is expected to be through the roof. Can Joe Biden hold together a large enough coalition of anti-Trump voters to make Trump a one-term President, or will Trump pull of another huge upset after trailing in the polls?</p>",
+            "summary": "\n</p>The story of Peter Montgomery Buttigieg is one of inspiration and turbulence. In the wake of seemingly never-ending crises, a mayor from the middle of nowhere, Indiana, rose to prominence and bested electoral titans of the likes of Joe Biden and Bernie Sanders. The Democratic Party rallied around him, swiftly overpowering Donald Trump's vile conspiracies in a landslide not seen since Obama in 2008, making him the first openly homosexual president.</p>\n\n\n\n</p>But now it's 2021, the nation was plagued by the pandemic and rising inflation, with no signs of ending without concrete action. He pledged to uphold democracy, but with the Republicans already champing at the bit to overthrow his administration, will The Boy Wonder guide the nation to an America they can believe in and <strong>Win The Era</strong>?</p>",
             "image_url": "https://files.catbox.moe/qj87r0.gif",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/dillon-stepien.jpg",
@@ -26,11 +26,11 @@ campaignTrail_temp.candidate_json = [
             "last_name": "Buttigieg",
             "election": 21,
             "party": "Democratic",
-            "state": "Delaware",
+            "state": "Indiana",
             "priority": 1,
             "description": "<p>Joe Biden came back from the dead to win the Democratic Party's nomination, and seems to enter the campaign slightly ahead in the polls against incumbent Donald Trump. Emotions are running high, even more than usual, in this campaign. Can Biden live up to his promise to calm tensions, or will he be overwhelmed by events?</p>",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
+            "color_hex": "#3C5A8B",
+            "secondary_color_hex": "#4A77BF",
             "is_active": 1,
             "image_url": "https://files.catbox.moe/yhvgyp.png",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>Things may have been closer and more contested than you hoped for, but the final result remains. Can you help bring the country back together after a tumultuous few years? Or will you be seen as a lame duck from the first day -- unable to keep the two wings of your party coordinated? Time will tell.</p>",
@@ -52,15 +52,15 @@ campaignTrail_temp.candidate_json = [
             "state": "Florida",
             "priority": 2,
             "description": "<p>President Donald Trump enters the campaign with the advantages of incumbency, yet seems to be the underdog for a second time. Can Trump piece together a winning coalition again, and will it be the same one that got him over the finish line in 2016? The pandemic and Black Lives Matter movement only serve to complicate his task even further.</p>",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "color_hex": "#A63F49",
+            "secondary_color_hex": "#D34553",
             "is_active": 1,
             "image_url": "https://www.jetsimon.com/public/static/images/donald-trump-2020.jpg",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>For the second time in a row, many analysts saw a victory for you as practically impossible. But whatever they say, it is clear that your Make America Great Again agenda has been vindicated. Where do you take things from here?</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Many analysts believe the party will need to go in a completely different direction next time. As for yourself, will you take these results sitting down, or will you prepare yourself for an epic political comeback in 2024?</p>",
             "no_electoral_majority_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. A lot of liberals are absolutely distraught and outraged that the election came down to such a technicality, but hey, those are the rules!</p>",
             "description_as_running_mate": "",
-            "candidate_score": 1,
+            "candidate_score": 0,
             "running_mate": false
         }
     },
@@ -75,8 +75,8 @@ campaignTrail_temp.candidate_json = [
             "state": "South Carolina",
             "priority": 3,
             "description": "'",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
+            "color_hex": "#C0BD5D",
+            "secondary_color_hex": "#E1DE96",
             "is_active": 0,
             "image_url": "'",
             "electoral_victory_message": "'",
@@ -98,8 +98,8 @@ campaignTrail_temp.candidate_json = [
             "state": "New York",
             "priority": 4,
             "description": "'",
-            "color_hex": "#00C100",
-            "secondary_color_hex": "#A1FFA1",
+            "color_hex": "#56A054",
+            "secondary_color_hex": "#94CC93",
             "is_active": 0,
             "image_url": "'",
             "electoral_victory_message": "'",
@@ -543,5 +543,519 @@ document.getElementById("header").src = "https://files.catbox.moe/bi9b1d.gif";
 document.body.background = "https://files.catbox.moe/7r2rat.jpeg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5b7276!important;}</style>";
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/oRYYZyb.png)"
+
+e = campaignTrail_temp
+  
+  RecReading=true
+    
+  // Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Far From Any Road",
+      "The Handsome Family",
+      "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F7fd87e1ce00d3af0eb9ac1dac626a430.640x640x1.jpg",
+      "https://audio.jukehost.co.uk/dZzR3QvOQYaQ3aHDWT6DXoUlf0ujylXB"
+    );
+    
+    const song2 = new Song(
+      "",
+      "",
+      "",
+      ""
+    );
+  
+    const song3 = new Song(
+      "",
+      "",
+      "",
+      ""
+    );
+  
+    const song4 = new Song(
+      "",
+      "",
+      "",
+      ""
+    );
+  
+    const song5 = new Song(
+      "",
+      "",
+      "",
+      ""
+    );
+  
+    const song6 = new Song(
+      "",
+      "",
+      "",
+      ""
+    );
+  
+    const song7 = new Song(
+      "",
+      "",
+      "",
+      ""
+    );
+  
+    const song8 = new Song(
+      "",
+      "",
+      "",
+      ""
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/k3m3Bmc.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+const volumeSlider = document.createElement("input");
+volumeSlider.type = "range";
+volumeSlider.id = "volumeSlider";
+volumeSlider.min = 0;
+volumeSlider.max = 9;
+volumeSlider.step = 1;
+volumeSlider.value = 3; // Initial volume (level 3)
+
+volumeSliderContainer.appendChild(volumeSlider);
+
+// Create the volume display
+const volumeDisplay = document.createElement("span");
+volumeDisplay.id = "volume-display";
+volumeDisplay.style.fontWeight = 'bold'; 
+volumeDisplay.style.display = 'none';
+volumeDisplay.textContent = "3"; // Match the initial slider value
+
+volumeContainer.appendChild(volumeSliderContainer);
+volumeContainer.appendChild(volumeDisplay);
+
+playerContainer.appendChild(volumeContainer);
+gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+// Create the audio element
+const audio = document.createElement("audio");
+audio.id = "audio";
+audio.src = playlist.getCurrentSong().audioLink;
+
+let currentVolume = 3; // Logical starting volume (out of 9)
+audio.volume = currentVolume / 9; // Convert to 0–1 range
+
+// Progress bar update
+function updateProgressBar() {
+  const audio = document.getElementById("audio");
+  const progress = (audio.currentTime / audio.duration) * 100;
+  try {
+    progressBar.value = progress;
+  } catch {}
+}
+
+// Seek functionality
+progressBar.addEventListener("input", function () {
+  const audio = document.getElementById("audio");
+  const seekTime = (progressBar.value / 100) * audio.duration;
+  audio.currentTime = seekTime;
+});
+
+// Play next song when current ends
+audio.addEventListener("timeupdate", updateProgressBar);
+audio.addEventListener("ended", function () {
+  playlist.playNext();
+  updateUI(playlist);
+  audio.src = playlist.getCurrentSong().audioLink;
+  audio.play();
+});
+
+// Volume control logic
+volumeSlider.addEventListener("input", function () {
+  currentVolume = parseInt(volumeSlider.value, 10);
+  updateVolumeDisplay();
+  updateAudioVolume();
+});
+
+function updateVolumeDisplay() {
+  volumeDisplay.textContent = currentVolume;
+}
+
+function updateAudioVolume() {
+  const audio = document.getElementById("audio");
+  audio.volume = currentVolume / 9; // Proper scaling between 0–1
+}
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+
+    #menu_container {
+        background-color: transparent;
+    }
+
+    #overall_result_container {
+        background-color: transparent;
+    }
+
+    #state_result_container {
+        background-color: transparent;
+    }
+
+    #map_container {
+        background-color: #f6f6f6;
+    }
+
+    .final_results_table {
+        color: black;
+      }
+
+      #state_result_data_summary table {
+        color: black;
+      }
+      
+      #state_result_data_summary table th,
+      #state_result_data_summary table td {
+        color: black; /* Ensure text color is black for both header and data cells */
+      }
+.campaign_trail_start_emphasis {
+    background-color: #89861F;
+  }
+    
+#final_results_description h3 {
+			color: white;
+		}
+		#overall_details_container h3 {
+			color: white;
+		}
+		#overall_election_details h4 {
+			color: white;
+		}
+		#main_content_area_reading p {
+			color: white;
+		}
+		#main_content_area_reading h3.results_tab_header {
+			color: white;
+		}
+		.inner_window_w_desc h3 {
+			color: white;
+		}
+		.overlay_window h3 {
+			color: white;
+				}
+p#credits {
+		color: white;
+	}
+
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 21,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
 
 //#endcode
