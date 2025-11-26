@@ -25,7 +25,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "Barack",
             "last_name": "Obama",
             "election": 3,
-            "party": "Democrat",
+            "party": "Democratic",
             "state": "Illinois",
             "priority": 1,
             "description": "<p>Barack Obama enters the 2012 campaign as the incumbent, having defeated John McCain in the 2008 election. He has governed as a moderate liberal, passing a health care reform program and taking a hawkish stance on some foreign policy issues.</p><p>Obama's administration has been dogged by a severe recession and an unconvincing recovery, which he has consistently blamed on the policies of his Republican predecessor and on the obstructionism of his political opponents in Congress.</p>",
@@ -54,7 +54,7 @@ campaignTrail_temp.candidate_json = [
             "description": "<p>Mitt Romney enters the 2012 campaign as the Republican challenger. He has a record of public service as the former Governor of Massachusetts and he also headed Bain Capital for many years. He is generally perceived as a pro-business moderate and a competent manager.</p><p>Due to Romney's evolving positions on health care and social issues over the years, some conservatives question his sincerity. His challenge is to win that faction without alienating mainstream voters.",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
-            "is_active": 1,
+            "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/static/images/mitt-romney-2012.jpg",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2012 election.</h3><p>In spite of a hard-fought campaign from Barack Obama, you have won the Presidency. Nearly two centuries after the ill-fated campaign of Joseph Smith, you will become America's first Mormon president. Your next steps are to select a cabinet and  prepare a rousing inauguration speech. On the political front, you may have the support needed to overturn Obamacare. Or you could focus on tax cuts, or other policies entirely.</p>",
             "electoral_loss_message": "<h3>Sorry! You have lost the 2012 election.</h3><p>In spite of your best efforts, Barack Obama has been reelected to a second term as President.</p><p>On the political front, it appears that Obamacare will survive and go into effect. While the economy has not recovered as strongly as Obama hoped and promised, he will now have four more years to leave a strong legacy to his Democratic successor. No doubt the Republicans will learn from your failure and come back stronger in 2016.</p>",
@@ -186,7 +186,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "Joe",
             "last_name": "Biden",
             "election": 3,
-            "party": "Democrat",
+            "party": "Democratic",
             "state": "Delaware",
             "priority": 7,
             "description": "<p>V.P. </p>",
@@ -272,29 +272,7 @@ campaignTrail_temp.candidate_json = [
         }
     },
     {
-        "model": "campaign_trail.candidate",
-        "pk": 34,
-        "fields": {
-            "first_name": "Hillary",
-            "last_name": "Clinton",
-            "election": 3,
-            "party": "Democrat",
-            "state": "New York",
-            "priority": 11,
-            "description": "n/a",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/hillary-clinton-2012.jpg",
-            "electoral_victory_message": "n/a",
-            "electoral_loss_message": "n/a",
-            "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>Hillary Clinton would be a change for Obama if he chose her as his running mate. Her current home state is New York, though she lived in Arkansas for many years. Her husband is former President Bill Clinton.</p><p>Clinton has served as Secretary of State since 2009 and won high praise for her performance, and she would bring added star power to Obama's reelection bid. The risks include offending Joe Biden as well as making Obama appear indecisive to some voters.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
+
         "model": "campaign_trail.candidate",
         "pk": 37,
         "fields": {
@@ -935,7 +913,7 @@ $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/8utyr
     volumeContainer.id = "volume-container";
   
   const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.src = "https://files.catbox.moe/qtivit.png";
   volumeLabel.alt = "Volume";
   volumeContainer.appendChild(volumeLabel);
   
