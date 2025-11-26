@@ -544,7 +544,7 @@ document.body.background = "https://files.catbox.moe/7r2rat.jpeg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5b7276!important;}</style>";
 
-$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/oRYYZyb.png)"
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/9dp5w7.png)"
 
 e = campaignTrail_temp
   
@@ -722,7 +722,7 @@ e = campaignTrail_temp
   
   const infoContainer = document.createElement("div");
   infoContainer.id = "info-container";
-  infoContainer.style.backgroundImage = "url('https://i.imgur.com/k3m3Bmc.png')";
+  infoContainer.style.backgroundImage = "url('https://files.catbox.moe/hbki1w.png')";
   infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
   infoContainer.style.color = "white"; // Set text color to white
   
@@ -751,19 +751,19 @@ e = campaignTrail_temp
   
   const prevButton = document.createElement("img");
   prevButton.id = "prevButton";
-  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.src = "https://files.catbox.moe/o6zvs4.png";
   prevButton.alt = "Previous";
   controls.appendChild(prevButton);
   
   const playPauseButton = document.createElement("img");
   playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.src = "https://files.catbox.moe/358r8p.png"; // Set the default play image
   playPauseButton.alt = "Play/Pause";
   controls.appendChild(playPauseButton);
   
   const nextButton = document.createElement("img");
   nextButton.id = "nextButton";
-  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.src = "https://files.catbox.moe/v0mwd1.png";
   nextButton.alt = "Next";
   controls.appendChild(nextButton);
   
@@ -773,10 +773,10 @@ e = campaignTrail_temp
     const audio = document.getElementById("audio");
     if (audio.paused) {
       audio.play();
-      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+      playPauseButton.src = "https://files.catbox.moe/358r8p.png"; // Set the pause image
     } else {
       audio.pause();
-      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+      playPauseButton.src = "https://files.catbox.moe/8m2l18.png"; // Set the play image
     }
   });
   
