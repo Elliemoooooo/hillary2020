@@ -544,7 +544,7 @@ document.body.background = "https://files.catbox.moe/7r2rat.jpeg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#5b7276!important;}</style>";
 
-$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/oRYYZyb.png)"
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/9dp5w7.png)"
 
 e = campaignTrail_temp
   
@@ -646,59 +646,59 @@ e = campaignTrail_temp
   
   
     const song1 = new Song(
-      "Far From Any Road",
-      "The Handsome Family",
-      "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F7fd87e1ce00d3af0eb9ac1dac626a430.640x640x1.jpg",
-      "https://audio.jukehost.co.uk/dZzR3QvOQYaQ3aHDWT6DXoUlf0ujylXB"
+      "Belong to the City",
+      "PARTYNEXTDOOR",
+      "https://files.catbox.moe/9ipv87.png",
+      "https://audio.jukehost.co.uk/xPAdxxk8QMAWpVtjL0aBF5B3HbaUQEwP"
     );
     
     const song2 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Kill Bill",
+      "SZA",
+      "https://files.catbox.moe/772xtg.png",
+      "https://audio.jukehost.co.uk/yEs8x4LuCXAz3MfaM2GORQp214mIyUXg"
     );
   
     const song3 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "prove it",
+      "21 Savage, Summer Walker",
+      "https://files.catbox.moe/1970ip.png",
+      "https://audio.jukehost.co.uk/eAP3hLqHYpstWovGoI8KOVgb4NMvqo6o"
     );
   
     const song4 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Location",
+      "Khalid",
+      "https://files.catbox.moe/fa7vmx.png",
+      "https://audio.jukehost.co.uk/4L3WSnqfMoFbiJvrRzyfrXWMh5ekcMru"
     );
   
     const song5 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Never Lose Me",
+      "Flo Milli",
+      "https://files.catbox.moe/iorg7h.png",
+      "https://audio.jukehost.co.uk/qJUWZUS5YfxmMIUjsYec7Z9HZsuAIKAz"
     );
   
     const song6 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Bad Habit",
+      "Steve Lacy",
+      "https://files.catbox.moe/sqir4j.png",
+      "https://audio.jukehost.co.uk/9mF2Of62z10ddZaFW1s60z3dFIrX5yAV"
     );
   
     const song7 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "BEST INTEREST",
+      "Tyler, The Creator",
+      "https://files.catbox.moe/2vsdul.png",
+      "https://audio.jukehost.co.uk/je1gdnk6hoDDJSwAP4Tio117xeZW43sG"
     );
   
     const song8 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Take You Dancing",
+      "Jason Derulo",
+      "https://files.catbox.moe/itl7gw.png",
+      "https://audio.jukehost.co.uk/gqEsnaH6mkKi5hNEID2eZL7a2g55XDql"
     );
   
     playlist.addSong(song1);
@@ -722,7 +722,7 @@ e = campaignTrail_temp
   
   const infoContainer = document.createElement("div");
   infoContainer.id = "info-container";
-  infoContainer.style.backgroundImage = "url('https://i.imgur.com/k3m3Bmc.png')";
+  infoContainer.style.backgroundImage = "url('https://files.catbox.moe/hbki1w.png')";
   infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
   infoContainer.style.color = "white"; // Set text color to white
   
@@ -751,19 +751,19 @@ e = campaignTrail_temp
   
   const prevButton = document.createElement("img");
   prevButton.id = "prevButton";
-  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.src = "https://files.catbox.moe/o6zvs4.png";
   prevButton.alt = "Previous";
   controls.appendChild(prevButton);
   
   const playPauseButton = document.createElement("img");
   playPauseButton.id = "playPauseButton";
-  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.src = "https://files.catbox.moe/358r8p.png"; // Set the default play image
   playPauseButton.alt = "Play/Pause";
   controls.appendChild(playPauseButton);
   
   const nextButton = document.createElement("img");
   nextButton.id = "nextButton";
-  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.src = "https://files.catbox.moe/v0mwd1.png";
   nextButton.alt = "Next";
   controls.appendChild(nextButton);
   
@@ -773,10 +773,10 @@ e = campaignTrail_temp
     const audio = document.getElementById("audio");
     if (audio.paused) {
       audio.play();
-      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+      playPauseButton.src = "https://files.catbox.moe/358r8p.png"; // Set the pause image
     } else {
       audio.pause();
-      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+      playPauseButton.src = "https://files.catbox.moe/8m2l18.png"; // Set the play image
     }
   });
   
@@ -814,7 +814,7 @@ e = campaignTrail_temp
     volumeContainer.id = "volume-container";
   
   const volumeLabel = document.createElement("img");
-  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.src = "https://files.catbox.moe/qtivit.png";
   volumeLabel.alt = "Volume";
   volumeContainer.appendChild(volumeLabel);
   
@@ -909,7 +909,7 @@ function updateAudioVolume() {
       display: flex;
       flex-direction: row;
     height:191px;
-      background-Image: url("https://i.imgur.com/Ok791w6.png");
+      background-Image: url("https://files.catbox.moe/8mc5wk.png");
     }
   
     #display-box {
