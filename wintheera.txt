@@ -646,59 +646,59 @@ e = campaignTrail_temp
   
   
     const song1 = new Song(
-      "Far From Any Road",
-      "The Handsome Family",
-      "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F7fd87e1ce00d3af0eb9ac1dac626a430.640x640x1.jpg",
-      "https://audio.jukehost.co.uk/dZzR3QvOQYaQ3aHDWT6DXoUlf0ujylXB"
+      "Belong to the City",
+      "PARTYNEXTDOOR",
+      "https://files.catbox.moe/9ipv87.png",
+      "https://audio.jukehost.co.uk/xPAdxxk8QMAWpVtjL0aBF5B3HbaUQEwP"
     );
     
     const song2 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Kill Bill",
+      "SZA",
+      "https://files.catbox.moe/772xtg.png",
+      "https://audio.jukehost.co.uk/yEs8x4LuCXAz3MfaM2GORQp214mIyUXg"
     );
   
     const song3 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "prove it",
+      "21 Savage, Summer Walker",
+      "https://files.catbox.moe/1970ip.png",
+      "https://audio.jukehost.co.uk/eAP3hLqHYpstWovGoI8KOVgb4NMvqo6o"
     );
   
     const song4 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Location",
+      "Khalid",
+      "https://files.catbox.moe/fa7vmx.png",
+      "https://audio.jukehost.co.uk/4L3WSnqfMoFbiJvrRzyfrXWMh5ekcMru"
     );
   
     const song5 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Never Lose Me",
+      "Flo Milli",
+      "https://files.catbox.moe/iorg7h.png",
+      "https://audio.jukehost.co.uk/qJUWZUS5YfxmMIUjsYec7Z9HZsuAIKAz"
     );
   
     const song6 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Bad Habit",
+      "Steve Lacy",
+      "https://files.catbox.moe/sqir4j.png",
+      "https://audio.jukehost.co.uk/9mF2Of62z10ddZaFW1s60z3dFIrX5yAV"
     );
   
     const song7 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "BEST INTEREST",
+      "Tyler, The Creator",
+      "https://files.catbox.moe/2vsdul.png",
+      "https://audio.jukehost.co.uk/je1gdnk6hoDDJSwAP4Tio117xeZW43sG"
     );
   
     const song8 = new Song(
-      "",
-      "",
-      "",
-      ""
+      "Take You Dancing",
+      "Jason Derulo",
+      "https://files.catbox.moe/itl7gw.png",
+      "https://audio.jukehost.co.uk/gqEsnaH6mkKi5hNEID2eZL7a2g55XDql"
     );
   
     playlist.addSong(song1);
