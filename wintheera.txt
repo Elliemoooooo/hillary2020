@@ -20,7 +20,7 @@ campaignTrail_temp.election_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 200,
+        "pk": 300,
         "fields": {
             "first_name": "Pete",
             "last_name": "Buttigieg",
@@ -43,7 +43,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 201,
+        "pk": 301,
         "fields": {
             "first_name": "Donald",
             "last_name": "Trump",
@@ -66,7 +66,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 202,
+        "pk": 302,
         "fields": {
             "first_name": "Jo",
             "last_name": "Jorgensen",
@@ -89,7 +89,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 203,
+        "pk": 303,
         "fields": {
             "first_name": "Howie",
             "last_name": "Hawkins/Other",
@@ -112,7 +112,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 204,
+        "pk": 304,
         "fields": {
             "first_name": "Val",
             "last_name": "Demings",
@@ -135,7 +135,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 205,
+        "pk": 305,
         "fields": {
             "first_name": "Susan",
             "last_name": "Rice",
@@ -158,7 +158,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 206,
+        "pk": 306,
         "fields": {
             "first_name": "Karen",
             "last_name": "Bass",
@@ -181,7 +181,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 207,
+        "pk": 307,
         "fields": {
             "first_name": "Gretchen",
             "last_name": "Whitmer",
@@ -204,7 +204,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 208,
+        "pk": 308,
         "fields": {
             "first_name": "Elizabeth",
             "last_name": "Warren",
@@ -227,7 +227,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 209,
+        "pk": 309,
         "fields": {
             "first_name": "Mike",
             "last_name": "Pence",
@@ -250,7 +250,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 210,
+        "pk": 310,
         "fields": {
             "first_name": "Nikki",
             "last_name": "Haley",
@@ -273,7 +273,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 211,
+        "pk": 311,
         "fields": {
             "first_name": "Spike",
             "last_name": "Cohen",
@@ -296,7 +296,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 212,
+        "pk": 312,
         "fields": {
             "first_name": "Angela",
             "last_name": "Walker",
@@ -319,7 +319,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 213,
+        "pk": 313,
         "fields": {
             "first_name": "Val",
             "last_name": "Demings",
@@ -342,7 +342,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 214,
+        "pk": 314,
         "fields": {
             "first_name": "Tammy",
             "last_name": "Duckworth",
